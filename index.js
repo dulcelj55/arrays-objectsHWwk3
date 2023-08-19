@@ -1,97 +1,140 @@
-// 1.
-const fruits = ["apple", "banana", "orange", "grape"]
-fruits[2] = "kiwi";
-console.log (fruits)
+// // 1.
+// const fruits = ["apple", "banana", "orange", "grape"]
+// fruits[2] = "kiwi";
+// console.log (fruits)
 
 // 2.
-const numbers= [2,4,6,8,10]
-numbers.push [12]
-console.log(numbers)
-numbers.shift();
-console.log(numbers)
+// const numbers= [2,4,6,8,10]
+// numbers.push (12)
+// console.log(numbers)
+// numbers.shift();
+// console.log(numbers)
 
-// 3. (need help on making it shorter)
-firstNames = ["John","Emma", "Michael"]
-lastNames = ["Doe", "Smith", "Johnson"]
-
-fullNames = [firstNames + lastNames]
-console.log(fullNames)
- 
-fullNames = [ firstNames[0]+" "+ lastNames[0], firstNames[1]+" "+ lastNames[1], firstNames[2]+" "+ lastNames[2]];
-console.log(fullNames)
-
-// 4.
-
-ages=[25,30,18,42,15]
-ages.forEach(function()){
-  console.log (age + i)
-}
-// 5.
-scores=[85,92,78,95,88]
-newscores= scores.forEach( i <90 )
-
-// 6.
-countires=["USA","Canada","Mexico","France", "Germany"]
-if "Mexico"
-
-// 7.
-numbers=[3,7,1,9,4]
-
-// 8. grades= [87,95,76,88,92]
-
-// 9.
-data = [10,20,30,40,50]
-const newdata( i*2)
+// 3. 
+// (need help on making it shorter)
+// firstNames = ["John","Emma", "Michael"]
+// lastNames = ["Doe", "Smith", "Johnson"]
 
 
-//10. values =[34,12,78,53,90]
+// fullNames = [ firstNames[0]+" "+ lastNames[0], firstNames[1]+" "+ lastNames[1], firstNames[2]+" "+ lastNames[2]];
+// console.log(fullNames)
 
-let movie={
-  name:"Titanic",
-  releaseYear: 1997,
-  director: "James Cameron",
-  actors: ["Leonardo Dicaprio", "Kate Winslet", "Billy Zane", "Kathy Bates"]
-  starActor{
-    name: "Leonardo Dicaprio",
-    age: 5,
-    born: 1889,
-    linkToAwards: "https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
-    headshotLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/220px-Leonardo_DiCaprio_2014.jpg"
-
-  },
-
-  budgetInMillions: 200
-
-}
+// for (i= 0 ; i< firstNames.length; i++){
+//   fullNames= firstNames[i] + " "  + lastNames[i];
+//   console.log(fullNames)
+// }
 
 
-let cohortFour = {
+// // // 4.
+// total=0
+// ages=[25,30,18,42,15]
+// for (i=0; i<  ages.length ; i++){
+//   total = total + ages[i];
+// }
+//   console.log ( total)
 
-  classSize: 5,
+// // 5.
+// const scores=[85,92,78,95,88]
 
-  instructor: {
 
-      name: "Fred",
+// const newScores = (score) =>{
+//   let topScores = []
+//   for ( let i=0; i<score.length; i++){
+//     if (score[i] >= 90){
+//       topScores.push(score[i])
+//     }
+//   } 
+//   return topScores
+// }
+// console.log(newScores(scores))
 
-      age: 40,
+// // 6.
+// countires= ["USA","Canada","Mexico","France", "Germany"]
+// const doesexist = (array) => {
+//   for (let i= 0; i<array.length; i++){
+//     if (array[i]=== "Mexico"){
+//       return [i];
+//     }
+// }
+// }
+//   console.log(doesexist(countires));
 
-      completedCohortIds: [3, 77, 45, 23],
+//  7.
+// numbers = [3, 7, 1, 9, 4]
+// let numbers2 = []
+// const sortgrade = (array) => {
+//   for (let i = 0; i < array.length; i++) {
+//     numbers2.push(array[i] * array[i])
+//   }
+//   console.log(numbers2);
 
-      email: "fred@fred.com",
+// }
+// console.log(sortgrade(numbers))
 
-      assistant: {
 
-          name: "Brad",
+ // 8. answer plus undifinedgit 
+// grades= [87,95,76,88,92]
+// let orderGrades = []
+// const sort = (array) =>{
+//   orderGrades = array.sort()
+//   console.log (orderGrades)
+// }
+// console.log(sort(grades))
 
-          age: 38,
 
-          email: "Brad@brad.com"
+// // 9.
+// data = [10,20,30,40,50]
+// const newdata( i*2)
 
-      }
 
-  },
+// //10. values =[34,12,78,53,90]
 
-  classGrades: [99, 100, 89, 88, 95]
+// let movie={
+//   name:"Titanic",
+//   releaseYear: 1997,
+//   director: "James Cameron",
+//   actors: ["Leonardo Dicaprio", "Kate Winslet", "Billy Zane", "Kathy Bates"]
+//   starActor{
+//     name: "Leonardo Dicaprio",
+//     age: 5,
+//     born: 1889,
+//     linkToAwards: "https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
+//     headshotLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/220px-Leonardo_DiCaprio_2014.jpg"
 
-}
+//   },
+
+//   budgetInMillions: 200
+
+// }
+
+
+// let cohortFour = {
+
+//   classSize: 5,
+
+//   instructor: {
+
+//       name: "Fred",
+
+//       age: 40,
+
+//       completedCohortIds: [3, 77, 45, 23],
+
+//       email: "fred@fred.com",
+
+//       assistant: {
+
+//           name: "Brad",
+
+//           age: 38,
+
+//           email: "Brad@brad.com"
+
+//       }
+
+//   },
+
+//   classGrades: [99, 100, 89, 88, 95]
+
+// }
 
