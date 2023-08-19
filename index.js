@@ -82,31 +82,61 @@
 // console.log(sort(grades))
 
 
-// // 9.
+// // 9. stil indefined
 // data = [10,20,30,40,50]
-// const newdata( i*2)
+// let newData = []
+// const doubleData = (array)=>{
+//   for (let i = 0; i < array.length; i++){
+//   newData.push(array[i]*2)  }
+//   console.log(newData);
+// }
+// console.log(doubleData(data))
+
+
+
 
 
 // //10. values =[34,12,78,53,90]
 
-// let movie={
-//   name:"Titanic",
-//   releaseYear: 1997,
-//   director: "James Cameron",
-//   actors: ["Leonardo Dicaprio", "Kate Winslet", "Billy Zane", "Kathy Bates"]
-//   starActor{
-//     name: "Leonardo Dicaprio",
-//     age: 5,
-//     born: 1889,
-//     linkToAwards: "https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
-//     headshotLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/220px-Leonardo_DiCaprio_2014.jpg"
 
-//   },
 
-//   budgetInMillions: 200
 
-// }
 
+
+let movie = {
+
+  name: "Titanic",
+
+  releaseYear: 1997,
+
+  director: "James Cameron",
+
+  actors: ["Leonardo Dicaprio", "Kate Winslet", "Billy Zane", "Kathy Bates"],
+
+  starActor: {
+
+      name: "Leonardo Dicaprio",
+
+      age: 5,
+
+      born: 1889,
+
+      linkToAwards: "https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
+
+      headshotLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/220px-Leonardo_DiCaprio_2014.jpg"
+
+  },
+
+  budgetInMillions: 200
+
+}
+
+movie.starActor.age = 48;
+console.log(movie.starActor.age);
+movie.starActor.born = 1989;
+console.log(movie.starActor.born);
+movie.starActor[isPopular]=true;
+console.log(movie.starActor.isPopular)
 
 // let cohortFour = {
 
