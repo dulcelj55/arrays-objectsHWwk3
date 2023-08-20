@@ -115,52 +115,63 @@
 
 
 
-// let movie = {
+let movie = {
 
-//   name: "Titanic",
+  name: "Titanic",
 
-//   releaseYear: 1997,
+  releaseYear: 1997,
 
-//   director: "James Cameron",
+  director: "James Cameron",
 
-//   actors: ["Leonardo Dicaprio", "Kate Winslet", "Billy Zane", "Kathy Bates"],
+  actors: ["Leonardo Dicaprio", "Kate Winslet", "Billy Zane", "Kathy Bates"],
 
-//   starActor: {
+  starActor: {
 
-//       name: "Leonardo Dicaprio",
+      name: "Leonardo Dicaprio",
 
-//       age: 5,
+      age: 5,
 
-//       born: 1889,
+      born: 1889,
 
-//       linkToAwards: "https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
+      linkToAwards: "https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
 
-//       headshotLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/220px-Leonardo_DiCaprio_2014.jpg"
+      headshotLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/220px-Leonardo_DiCaprio_2014.jpg"
 
-//   },
+  },
 
-//   budgetInMillions: 200
+  budgetInMillions: 200
 
-// }
+}
 
 // movie.starActor.age = 48;
 // console.log(movie.starActor.age);
 // movie.starActor.born = 1989;
 // console.log(movie.starActor.born);
-// movie.starActor[isPopular]=true;
-// console.log(movie.starActor.isPopular)
+// // movie.starActor[isPopular]=true;
+// // console.log(movie.starActor.isPopular)
+// movie.isGoodMovie= undefined
 
-// // let cohortFour = {
+// movie.actors.forEach ((actor)=>{
+//   if (actor === "Tom Cruise"){
+//     movie.isGoodMovie = true
+//   }else{
+//     movie.isGoodMovie = false
+//   }}
+  
+// )
+// console.log(movie.isGoodMovie)
 
-// //   classSize: 5,
+// let cohortFour = {
 
-// //   instructor: {
+//   classSize: 5,
 
-// //       name: "Fred",
+//   instructor: {
 
-// //       age: 40,
+//       name: "Fred",
 
-// //       completedCohortIds: [3, 77, 45, 23],
+//       age: 40,
+
+//       completedCohortIds: [3, 77, 45, 23],
 
 //       email: "fred@fred.com",
 
@@ -180,3 +191,67 @@
 
 // }
 
+// // 1. 
+// if (cohortFour.classSize > 10){
+//   console.log("Class size larger than 10")
+// }else{
+//   console.log("Class size is smaller than 10")
+// // }2.
+// if (cohortFour.instructor[completedCohortIds].length >= 2){
+//   let moreThanTwo
+//   moreThanTwo = "yes"
+// }else {
+//   moreThanTwo = "no"
+// }
+// console.log(moreThanTwo, " to completed 2 corhorts ");
+// findLength =[cohortFour.instructor.completedCohortIds]
+// length = findLength.length
+// console.log(length)
+
+// 3.
+
+//  const changeAssistant = (name, age, email)=>{
+//   cohortFour.instructor.assistant.name= name  
+//   cohortFour.instructor.assistant.age = age
+//   cohortFour.instructor.assistant.email = email
+  
+// }
+// changeAssistant( "Bob", 19, "cool@gmail.com")
+// console.log (cohortFour.instructor.assistant.name)
+// console.log (cohortFour.instructor.assistant.age)
+// console.log (cohortFour.instructor.assistant.email)
+
+// 4. 
+
+// cohortFour.instructor.completedCohortIds.forEach((index)=>{
+//   if (index === 55){
+//     completed = true
+//   }else{
+//     completed = false
+//   }
+//  })
+// console.log (completed)
+// 5.
+
+// gradetotal=0
+// // const averageGrade = () =>{
+
+
+// // averageGrade(cohortFour.classGrades)
+
+// cohortFour.classGrades.forEach((grade)=>{
+ 
+//   findLength =cohortFour.classGrades
+//   gradelength = findLength.length
+//   gradetotal= gradetotal + grade
+//   if (gradetotal/ gradelength >90){
+//   averageisgreat = "average is higher than 90"
+//  }else{
+//   averageisgreat = "average is lower than 90"
+//  }
+ 
+ 
+// })
+// console.log(gradelength)
+// console.log(gradetotal)
+// console.log (averageisgreat)
