@@ -1,9 +1,9 @@
-// // 1.
+// // // 1.
 // const fruits = ["apple", "banana", "orange", "grape"]
 // fruits[2] = "kiwi";
 // console.log (fruits)
 
-// 2.
+// // 2.
 // const numbers= [2,4,6,8,10]
 // numbers.push (12)
 // console.log(numbers)
@@ -72,23 +72,23 @@
 // console.log(sortgrade(numbers))
 
 
- // 8. answer plus undifinedgit 
+ // 8. 
 // grades= [87,95,76,88,92]
 // let orderGrades = []
 // const sort = (array) =>{
 //   orderGrades = array.sort()
-//   console.log (orderGrades)
+//   return orderGrades
 // }
 // console.log(sort(grades))
 
 
-// // 9. stil indefined
+// // // 9. 
 // data = [10,20,30,40,50]
 // let newData = []
 // const doubleData = (array)=>{
 //   for (let i = 0; i < array.length; i++){
 //   newData.push(array[i]*2)  }
-//   console.log(newData);
+//   return newData;
 // }
 // console.log(doubleData(data))
 
@@ -96,59 +96,71 @@
 
 
 
-// //10. values =[34,12,78,53,90]
+// // //10. 
+// let values = [34,12,78,53,90]
+// let highvalue = 0
+// const highvalues = (array)=>{
+//   for(let i=0; i < array.length; i++){
+//     if (array[i]> highvalue){
+//       highvalue= array[i]
+//   } 
+// }
+// return highvalue
+// }
+// console.log (highvalues(values));
 
 
 
 
 
 
-let movie = {
 
-  name: "Titanic",
+// let movie = {
 
-  releaseYear: 1997,
+//   name: "Titanic",
 
-  director: "James Cameron",
+//   releaseYear: 1997,
 
-  actors: ["Leonardo Dicaprio", "Kate Winslet", "Billy Zane", "Kathy Bates"],
+//   director: "James Cameron",
 
-  starActor: {
+//   actors: ["Leonardo Dicaprio", "Kate Winslet", "Billy Zane", "Kathy Bates"],
 
-      name: "Leonardo Dicaprio",
+//   starActor: {
 
-      age: 5,
+//       name: "Leonardo Dicaprio",
 
-      born: 1889,
+//       age: 5,
 
-      linkToAwards: "https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
+//       born: 1889,
 
-      headshotLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/220px-Leonardo_DiCaprio_2014.jpg"
+//       linkToAwards: "https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
 
-  },
+//       headshotLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/220px-Leonardo_DiCaprio_2014.jpg"
 
-  budgetInMillions: 200
+//   },
 
-}
+//   budgetInMillions: 200
 
-movie.starActor.age = 48;
-console.log(movie.starActor.age);
-movie.starActor.born = 1989;
-console.log(movie.starActor.born);
-movie.starActor[isPopular]=true;
-console.log(movie.starActor.isPopular)
+// }
 
-// let cohortFour = {
+// movie.starActor.age = 48;
+// console.log(movie.starActor.age);
+// movie.starActor.born = 1989;
+// console.log(movie.starActor.born);
+// movie.starActor[isPopular]=true;
+// console.log(movie.starActor.isPopular)
 
-//   classSize: 5,
+// // let cohortFour = {
 
-//   instructor: {
+// //   classSize: 5,
 
-//       name: "Fred",
+// //   instructor: {
 
-//       age: 40,
+// //       name: "Fred",
 
-//       completedCohortIds: [3, 77, 45, 23],
+// //       age: 40,
+
+// //       completedCohortIds: [3, 77, 45, 23],
 
 //       email: "fred@fred.com",
 
